@@ -1,0 +1,7 @@
+console.log("Your signer:", (await ethers.getSigners())[0].address)
+console.log("Bank in LC:", lcData.bank)
+const lcData = await lc.lcs(5)
+const lc = await ethers.getContractAt("LetterOfCredit", LC_ADDRESS)
+.exit
+.exti
+await lcContract.releasePayment(2)
